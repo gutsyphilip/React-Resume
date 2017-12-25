@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Sidebar from './components/Sidebar/Sidebar';
+import Main from './components/Main/Main'
 import Footer from './components/Footer';
 
 
@@ -10,6 +11,7 @@ class App extends Component {
       <div>
         <div className="wrapper" >
             <Sidebar/>
+            <Main/>
         </div>
       <Footer/>
       </div>
